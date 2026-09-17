@@ -11,8 +11,9 @@ config_version=5
 [application]
 
 config/name="project-01"
+run/main_scene="uid://cnn154f1sebv2"
 config/features=PackedStringArray("4.7", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://assets/sprites/icon.svg"
 
 [display]
 
