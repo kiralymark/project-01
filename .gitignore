@@ -2,6 +2,8 @@
 .godot/
 .nomedia
 /android/
+build/
+addons/
 
 # Godot-specific ignores
 .import/
