@@ -27,6 +27,10 @@ tile_set = SubResource("TileSet_midqa")
 position = Vector2(544, 288)
 script = ExtResource("3_lnu2h")
 
+[node name="Camera2D" type="Camera2D" parent="Player" unique_id=2086495576]
+position_smoothing_enabled = true
+position_smoothing_speed = 10.0
+
 [node name="Enemy" parent="." unique_id=1143233576 instance=ExtResource("4_lbhrr")]
 modulate = Color(1, 0, 0, 1)
 position = Vector2(696, 432)
