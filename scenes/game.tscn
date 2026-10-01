@@ -2,7 +2,6 @@
 
 [ext_resource type="Texture2D" uid="uid://spkqbs0xqyd5" path="res://assets/sprites/project-01.svg" id="1_uwrxv"]
 [ext_resource type="PackedScene" uid="uid://bpjnckehye837" path="res://scenes/characters/player.tscn" id="2_yqjtg"]
-[ext_resource type="Script" uid="uid://bu5gvm12edcqp" path="res://scripts/scripts/characters/player.gd" id="3_lnu2h"]
 [ext_resource type="PackedScene" uid="uid://d33283prk0ywg" path="res://scenes/characters/enemy.tscn" id="4_lbhrr"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yqjtg"]
@@ -10,7 +9,7 @@ texture = ExtResource("1_uwrxv")
 texture_region_size = Vector2i(64, 64)
 0:0/0 = 0
 1:0/0 = 0
-1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(32, 32, 32, -32, -32, -32, -32, 32)
+1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(22.857147, 22.857147, 22.857147, -22.857143, -22.857143, -22.857143, -22.857143, 22.857147)
 
 [sub_resource type="TileSet" id="TileSet_midqa"]
 tile_size = Vector2i(64, 64)
@@ -25,7 +24,6 @@ tile_set = SubResource("TileSet_midqa")
 
 [node name="Player" parent="." unique_id=1216958483 instance=ExtResource("2_yqjtg")]
 position = Vector2(544, 288)
-script = ExtResource("3_lnu2h")
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=2086495576]
 position_smoothing_enabled = true

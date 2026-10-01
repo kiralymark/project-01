@@ -1,5 +1,17 @@
 [gd_scene format=3 uid="uid://bpjnckehye837"]
 
 [ext_resource type="PackedScene" uid="uid://bni1rwncecnc8" path="res://scenes/characters/character.tscn" id="1_rp718"]
+[ext_resource type="Script" uid="uid://bu5gvm12edcqp" path="res://scripts/scripts/characters/player.gd" id="2_yewv4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_midqa"]
+size = Vector2(80, 80)
 
 [node name="Player" unique_id=1216958483 instance=ExtResource("1_rp718")]
+script = ExtResource("2_yewv4")
+
+[node name="Area2D" type="Area2D" parent="." index="2" unique_id=107957911]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" index="0" unique_id=805448694]
+shape = SubResource("RectangleShape2D_midqa")
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
