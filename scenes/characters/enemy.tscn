@@ -6,7 +6,7 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fulqv"]
 size = Vector2(80, 80)
 
-[node name="Enemy" unique_id=1216958483 instance=ExtResource("1_7jb55")]
+[node name="Enemy" unique_id=1216958483 groups=["enemy"] instance=ExtResource("1_7jb55")]
 script = ExtResource("2_fulqv")
 
 [node name="Area2D" type="Area2D" parent="." index="2" unique_id=67560727]
