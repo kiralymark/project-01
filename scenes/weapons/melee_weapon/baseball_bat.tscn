@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://dd7s3trluspgc"]
+
+[ext_resource type="PackedScene" uid="uid://c6pmvpqhyk0kq" path="res://scenes/weapons/melee_weapon/melee_weapon.tscn" id="1_ksiuv"]
+
+[node name="BaseballBat" unique_id=1435241795 instance=ExtResource("1_ksiuv")]

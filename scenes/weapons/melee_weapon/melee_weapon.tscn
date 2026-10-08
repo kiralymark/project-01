@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://c6pmvpqhyk0kq"]
+
+[ext_resource type="PackedScene" uid="uid://dvw5uyw016nad" path="res://scenes/weapons/weapon.tscn" id="1_umrt7"]
+[ext_resource type="Script" uid="uid://dhqwf5itjpfy8" path="res://melee_weapon.gd" id="1_vospy"]
+
+[node name="MeleeWeapon" unique_id=1435241795 instance=ExtResource("1_umrt7")]
+script = ExtResource("1_vospy")
