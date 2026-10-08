@@ -6,5 +6,5 @@ signal activate
 
 const SPEED: float = 300.0
 
-func move():
+func move() -> void:
 	move_and_slide()
